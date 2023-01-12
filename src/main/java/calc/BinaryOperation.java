@@ -1,6 +1,6 @@
 package calc;
 
-public class BinaryOperation implements BaseExpression {
+public final class BinaryOperation implements BaseExpression {
     private final String opr;
     private final BaseExpression left;
     private final BaseExpression right;

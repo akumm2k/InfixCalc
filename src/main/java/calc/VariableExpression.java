@@ -1,6 +1,6 @@
 package calc;
 
-public class VariableExpression implements BaseExpression {
+public final class VariableExpression implements BaseExpression {
     private final String var;
 
     public VariableExpression(String var) {

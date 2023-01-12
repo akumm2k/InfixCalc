@@ -1,6 +1,6 @@
 package calc;
 
-public class UnaryMinusOperation implements BaseExpression {
+public final class UnaryMinusOperation implements BaseExpression {
     private final BaseExpression expr;
 
     public UnaryMinusOperation(BaseExpression expr) {

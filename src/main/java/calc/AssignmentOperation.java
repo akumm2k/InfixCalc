@@ -1,6 +1,6 @@
 package calc;
 
-public class AssignmentOperation implements BaseExpression {
+public final class AssignmentOperation implements BaseExpression {
 
     private final String var;
     private final BaseExpression rhs;
